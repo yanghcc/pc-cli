@@ -22,13 +22,16 @@ ul {
       text-decoration: underline;
     }
   }
+  p{
+    margin: 0;
+  }
   // util
   .clearfix {
     display: block;
     zoom: 1;
   }
 
-  
+
 /**
  * 弹性图片
  */

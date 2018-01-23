@@ -2,6 +2,7 @@
 
 @import './lib/nanoscroller.scss';
 @import './helper/util.scss';
+
 .iframe {
   overflow: hidden;
   width: 724px;
@@ -226,4 +227,60 @@
       vertical-align: center;
     }
   }
+}
+.flipMes{
+  min-height: 496px;
+  position: relative;
+    overflow: hidden;
+    .addbox{
+      li{
+        width: 158px;
+      float: left;
+      overflow: hidden;
+      margin-right: 20px;
+      position: relative;
+      a {
+        border: 0;
+        float: left;
+        text-decoration: none;
+        width: 158px;
+        height: 166px;
+        display: block;
+        overflow: hidden;
+        img {
+          width: 158px;
+          height: 118px;
+          border: 0;
+          float: left;
+      }
+    }
+    .pic_txt {
+      color: #333;
+    width: 154px;
+    padding: 2px;
+    font-size: 12px;
+    height: 36px;
+    line-height: 18px;
+    float: left;
+    overflow: hidden;
+    background: #f6f6f6;
+    position: relative;
+      bottom: 0;
+      left: 0;
+      display: inline-block;
+      word-break: break-all;
+      text-align: left;
+      z-index: 5;
+  }
+      }
+  }
+}
+.no-data{
+  color: #bbb;
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+  height: 50px;
+  padding-bottom: 20px;
+  display: none;
 }
