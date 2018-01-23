@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/**
+ * 隐藏元素
+ */
+
+.hidden,
+[hidden] {
+    display: none !important;
+}
+
+// reset
+ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  // util
+  .clearfix {
+    display: block;
+    zoom: 1;
+  }
+
+  
+/**
+ * 弹性图片
+ */
+
+.lnv-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/**
+ * 单行文本超过宽度显示为三个点
+ */
+
+.dot {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.noselect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
