@@ -33,6 +33,7 @@ coverage
 build
 # dev
 dev
+doc
 
 # Dependency directories
 node_modules

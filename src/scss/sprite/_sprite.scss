@@ -9,16 +9,12 @@
 //
 // At the bottom of this section, we provide information about the spritesheet itself
 // $spritesheet: width height image $spritesheet-sprites;
-@mixin sprite-title-bg1 {
-    background-position: 0px -330px;
-}
-
 @mixin sprite-title-bg2 {
     background-position: 0px -164px;
 }
 
 @mixin sprite-title-bg3 {
-    background-position: 0px -502px;
+    background-position: 0px -330px;
 }
 
 @mixin sprite-title-bg4 {
@@ -28,7 +24,7 @@
 .sprite {
     background-image: url('../img/sprite.png');
     background-repeat: no-repeat;
-    background-size: 750px 654px;
+    background-size: 750px 482px;
 }
 
 
